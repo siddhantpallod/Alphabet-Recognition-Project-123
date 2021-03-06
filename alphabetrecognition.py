@@ -17,7 +17,7 @@ print(pd.Series(y).value_counts())
 classes = ['A', 'B', 'C', 'D', 'E','F', 'G', 'H', 'I', 'J', "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 classesLen = len(classes)
 
-xTrain, xTest, yTest, yTrain = train_test_split(X, y, random_state = 9, train_size = 3500, test_size = 500)
+xTrain, xTest, yTrain, yTest = train_test_split(X, y, random_state = 9, train_size = 3500, test_size = 500)
 xTrainScaled = xTrain / 255
 xTestScaled = xTest / 255
 
